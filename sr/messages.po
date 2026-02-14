@@ -125,6 +125,12 @@ msgstr "*Ако корисник већ поседује неке делове �
 msgid "*May burn"
 msgstr "*Може изгорети"
 
+#~ msgid "+{0}% from deposit"
+#~ msgstr "+{0}% од налазишта"
+
+#~ msgid "+{0}% from strategic resources"
+#~ msgstr "+{0}% од стратешких ресурса"
+
 #: src/components/_user/notification/notification.frontConfig.tsx:392
 #: src/components/_user/notification/notification.frontConfig.tsx:1215
 msgid "<0/> applied to join <1/>"
@@ -368,6 +374,9 @@ msgstr "<0>{0}</0> од бонуса на депозит за аграрну е�
 #: src/components/_military/battle/BattleDamageBonuses.tsx:75
 msgid "<0>{0}</0> from alliance with <1/>"
 msgstr "<0>{0}</0> од савеза са <1/>"
+
+#~ msgid "<0>{0}</0> from defense of your country's core region"
+#~ msgstr "<0>{0}</0> од одбране матичног региона твоје државе"
 
 #. placeholder {0}: region.depositBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:141
@@ -902,7 +911,8 @@ msgstr "Прихваћено"
 #: src/components/_user/user/UserHeader.tsx:162
 #: src/pages/country/[countryId]/account.tsx:36
 #: src/pages/country/[countryId]/index.tsx:328
-#: src/pages/user/[userId]/account.tsx:25 src/pages/user/[userId]/index.tsx:149
+#: src/pages/user/[userId]/account.tsx:25
+#: src/pages/user/[userId]/index.tsx:149
 msgid "Account"
 msgstr "Налог"
 
@@ -1072,7 +1082,8 @@ msgstr "Скоро као варање"
 msgid "Almost ready..."
 msgstr "Учитавам..."
 
-#: src/components/_user/UserEquipments.tsx:116 src/utils/translations.tsx:35
+#: src/components/_user/UserEquipments.tsx:116
+#: src/utils/translations.tsx:35
 msgid "Ammo"
 msgstr "Муниција"
 
@@ -1199,6 +1210,12 @@ msgstr "Чланци"
 #: src/pages/user/[userId]/articles.tsx:25
 msgid "Articles by <0/>"
 msgstr "Чланци од <0/>"
+
+#~ msgid "Assets"
+#~ msgstr "Средства"
+
+#~ msgid "At end of battle/rounds, <0>Top 30%</0> of the ranking, get <1>Loot chance</1> to get cases depending on total <2>Damages</2> of the side."
+#~ msgstr "На крају битке/рунди, <0>топ 30%</0> на ранг-листи добија <1>шансy за плен</1> да освоји сандуке, у зависности од укупне <2>нанете штете</2> стране."
 
 #: src/components/_military/damageRanking/DamageRankingList.tsx:253
 msgid "At end of battle/rounds, <0>Top 30%</0> of the ranking, get <1>Loot chance</1> to get cases depending on total <2>Damages</2> of the side. "
@@ -1344,7 +1361,8 @@ msgstr "Награда за рангирање у бици"
 #: src/components/_layout/LayoutMenu.tsx:152
 #: src/components/_military/battle/BattlesHeader.tsx:19
 #: src/components/_military/war/WarHeader.tsx:83
-#: src/pages/region/[regionId]/index.tsx:132 src/pages/war/[warId]/index.tsx:75
+#: src/pages/region/[regionId]/index.tsx:132
+#: src/pages/war/[warId]/index.tsx:75
 msgid "Battles"
 msgstr "Битке"
 
@@ -1386,7 +1404,8 @@ msgstr "Бонус штета"
 msgid "Boost your production!"
 msgstr "Пожачај своју производњу!"
 
-#: src/components/_user/UserEquipments.tsx:180 src/utils/translations.tsx:180
+#: src/components/_user/UserEquipments.tsx:180
+#: src/utils/translations.tsx:180
 msgid "Boots"
 msgstr "Чизме"
 
@@ -1527,6 +1546,9 @@ msgstr "Сандучад садрже насумичне предмете. Кл�
 msgid "Catapult"
 msgstr "Катапулт"
 
+#~ msgid "Chance to dodge all incoming damage when fighting in battles.<0/> Dodging also prevents equipment durability from being consumed."
+#~ msgstr "Шанса да избегнеш сву долазну штету током борбе у биткама.<0/>Избегавање такође спречава трошење трајности опреме."
+
 #: src/components/_user/user/skills.frontConfig.tsx:136
 msgid "Chance to dodge all incoming damage when fighting in battles.<0/>Dodging also prevents equipment durability from being consumed."
 msgstr "Шанса за избегавање све долазне штете током борбе у биткама.<0/>Избегавање такође спречава трошење издржљивости опреме."
@@ -1567,11 +1589,21 @@ msgstr "Промени шему боја земље на <0>{0}</0> са <1>{1}<
 msgid "Change the tax of {0} to"
 msgstr "Промени порез за {0} на"
 
+#~ msgid "Changed citizenship"
+#~ msgstr "Промењено држављанство"
+
+#~ msgid "Changed description"
+#~ msgstr "Промењен опис"
+
+#~ msgid "Changed username"
+#~ msgstr "Промењено корисничко име"
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:83
 msgid "Check your loot!"
 msgstr "Провери свој плен!"
 
-#: src/components/_user/UserEquipments.tsx:146 src/utils/translations.tsx:171
+#: src/components/_user/UserEquipments.tsx:146
+#: src/utils/translations.tsx:171
 msgid "Chest"
 msgstr "Панцир"
 
@@ -1648,6 +1680,12 @@ msgstr "Цивилни рат"
 msgid "Claim"
 msgstr "Преузми"
 
+#~ msgid "Claim finished mission"
+#~ msgstr "Преузми завршену мисију"
+
+#~ msgid "Claim mission XP"
+#~ msgstr "Преузми XP мисије"
+
 #: src/components/_other/tour/tuto.frontConfig.tsx:183
 msgid "Claim your rewards!"
 msgstr "Преузми своје награде!"
@@ -1719,7 +1757,8 @@ msgstr "Комодор"
 
 #: src/components/_layout/LayoutMenu.tsx:182
 #: src/components/_user/user/MyAvatar.tsx:48
-#: src/components/_user/user/UserHeader.tsx:194 src/pages/companies.tsx:107
+#: src/components/_user/user/UserHeader.tsx:194
+#: src/pages/companies.tsx:107
 msgid "Companies"
 msgstr "Компаније"
 
@@ -2488,10 +2527,14 @@ msgstr "Унеси корисничко име које желиш да номи
 msgid "Entrepreneurship"
 msgstr "Предузетништво"
 
-#: src/pages/market/index.tsx:71 src/pages/user/[userId]/index.tsx:90
+#: src/pages/market/index.tsx:71
+#: src/pages/user/[userId]/index.tsx:90
 #: src/pages/user/[userId]/inventory.tsx:58
 msgid "Equipment"
 msgstr "Опрема"
+
+#~ msgid "Equipment sets"
+#~ msgstr "Сетови опреме"
 
 #: src/components/_economy/market/MarketHeader.tsx:26
 msgid "Equipments"
@@ -2610,6 +2653,9 @@ msgstr "Бори се!"
 msgid "Fighter Jet"
 msgstr "Борбени авион"
 
+#~ msgid "Filter by action type"
+#~ msgstr "Филтрирај по типу акције"
+
 #: src/components/_economy/transaction/TransactionList.tsx:104
 msgid "Filter by transaction type"
 msgstr "Филтрирај по типу трансакције"
@@ -2642,7 +2688,8 @@ msgstr "Финансирај страни отпор"
 msgid "Finance local resistance"
 msgstr "Финансирај локални отпор"
 
-#: src/pages/companies.tsx:90 src/pages/user/[userId]/companies.tsx:73
+#: src/pages/companies.tsx:90
+#: src/pages/user/[userId]/companies.tsx:73
 msgid "Find a job"
 msgstr "Пронађи посао"
 
@@ -2706,6 +2753,9 @@ msgstr "Величина фонта"
 #: src/components/_user/user/UserDropdown.tsx:207
 msgid "Font style"
 msgstr "Стил фонта"
+
+#~ msgid "for companies producing {0} located in <0/>."
+#~ msgstr "за компаније које производе {0} лоциране у <0/>."
 
 #. placeholder {0}: ts[country.specializedItem]
 #: src/pages/country/[countryId]/index.tsx:416
@@ -2816,7 +2866,8 @@ msgstr "Наградна игра освојена!"
 msgid "Globe (experimental)"
 msgstr "Глобус (експериментално)"
 
-#: src/components/_user/UserEquipments.tsx:196 src/utils/translations.tsx:189
+#: src/components/_user/UserEquipments.tsx:196
+#: src/utils/translations.tsx:189
 msgid "Gloves"
 msgstr "Рукавице"
 
@@ -2877,7 +2928,8 @@ msgstr "Здравље"
 msgid "Heavy Ammo"
 msgstr "Тешка муниција"
 
-#: src/components/_user/UserEquipments.tsx:131 src/utils/translations.tsx:162
+#: src/components/_user/UserEquipments.tsx:131
+#: src/utils/translations.tsx:162
 msgid "Helmet"
 msgstr "Кацига"
 
@@ -3029,9 +3081,12 @@ msgstr "Новајлија"
 
 #: src/components/_layout/LayoutMenu.tsx:123
 #: src/components/_user/user/MyAvatar.tsx:35
-#: src/components/_user/user/UserHeader.tsx:154 src/pages/companies.tsx:50
-#: src/pages/country/[countryId]/account.tsx:24 src/pages/market/index.tsx:49
-#: src/pages/user/[userId]/account.tsx:19 src/pages/user/[userId]/bans.tsx:100
+#: src/components/_user/user/UserHeader.tsx:154
+#: src/pages/companies.tsx:50
+#: src/pages/country/[countryId]/account.tsx:24
+#: src/pages/market/index.tsx:49
+#: src/pages/user/[userId]/account.tsx:19
+#: src/pages/user/[userId]/bans.tsx:100
 #: src/pages/user/[userId]/companies.tsx:46
 #: src/pages/user/[userId]/index.tsx:192
 #: src/pages/user/[userId]/inventory.tsx:30
@@ -3067,7 +3122,8 @@ msgstr "Предмет купљен"
 msgid "Item Market"
 msgstr "Тржиште предмета"
 
-#: src/pages/companies.tsx:62 src/pages/user/[userId]/companies.tsx:56
+#: src/pages/companies.tsx:62
+#: src/pages/user/[userId]/companies.tsx:56
 msgid "Job"
 msgstr "Посао"
 
@@ -3148,6 +3204,9 @@ msgstr "Задај <0>{count}</0> крит. ударца"
 #: src/components/_user/auth/WelcomeModal.tsx:131
 msgid "Language"
 msgstr "Језик"
+
+#~ msgid "Last"
+#~ msgstr "Последњи"
 
 #: src/pages/shop/index.tsx:89
 msgid "Last gifts"
@@ -3488,6 +3547,9 @@ msgstr "Чланови"
 msgid "Mentioned in message"
 msgstr "Споменут у поруци"
 
+#~ msgid "Mercenary contracts"
+#~ msgstr "Плаћенички уговори"
+
 #: src/components/_other/shop/SkinPackModal.tsx:252
 msgid "Message (Optional)"
 msgstr "Порука (опционо)"
@@ -3821,6 +3883,9 @@ msgstr "Добар добар"
 msgid "Nice work!"
 msgstr "Сјајно урађено!"
 
+#~ msgid "No action logs found"
+#~ msgstr "Нису пронађени записи"
+
 #: src/components/_military/battle/ActiveBattlesList.tsx:193
 msgid "No active battles"
 msgstr "Нема активних битака"
@@ -3844,6 +3909,9 @@ msgstr "Нема савезника"
 #: src/components/_user/apiToken/ApiTokenList.tsx:231
 msgid "No API tokens yet. Create one to get started."
 msgstr "Још нема API токена. Креирај један да почнеш."
+
+#~ msgid "No bans yet"
+#~ msgstr "Нема банова..још увек"
 
 #: src/components/_military/battle/EndedBattlesList.tsx:115
 msgid "No battles yet"
@@ -4131,7 +4199,8 @@ msgstr "Пацифиста"
 msgid "Packs"
 msgstr "Пакети"
 
-#: src/components/_user/UserEquipments.tsx:163 src/utils/translations.tsx:198
+#: src/components/_user/UserEquipments.tsx:163
+#: src/utils/translations.tsx:198
 msgid "Pants"
 msgstr "Панталоне"
 
@@ -4282,6 +4351,9 @@ msgstr "Политички закони"
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:66
 msgid "Political motions"
 msgstr "Политички предлози"
+
+#~ msgid "Popular"
+#~ msgstr "Популарно"
 
 #: src/components/_user/user/skills.frontConfig.tsx:128
 #: src/components/_user/user/skills.frontConfig.tsx:129
@@ -4724,7 +4796,8 @@ msgstr "Уклони <0/> као члана савета"
 msgid "Remove a member from the party council"
 msgstr "Уклони члана савета из странке"
 
-#: src/pages/market/index.tsx:174 src/pages/market/index.tsx:234
+#: src/pages/market/index.tsx:174
+#: src/pages/market/index.tsx:234
 msgid "Remove all"
 msgstr "Уклони све"
 
@@ -4751,6 +4824,9 @@ msgstr "Уклони упис"
 #: src/components/_political/law/law.frontConfig.tsx:276
 msgid "Remove enemy"
 msgstr "Уклони непријатеља"
+
+#~ msgid "Remove mercenary"
+#~ msgstr "Уклони плаћеника"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:60
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:63
@@ -5109,6 +5185,9 @@ msgstr "Постави боју земље"
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:88
 msgid "Set new party ethics configuration:"
 msgstr "Постави нову конфигурацију страначке етике:"
+
+#~ msgid "Set order"
+#~ msgstr "Постави наређење"
 
 #: src/components/_political/partyMotion/partyMotion.frontConfig.tsx:79
 msgid "Set party ethics"
@@ -5621,7 +5700,8 @@ msgstr "укупно"
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:153
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:180
 #: src/components/_economy/work/WorkChart.tsx:198
-#: src/pages/market/index.tsx:153 src/pages/market/index.tsx:202
+#: src/pages/market/index.tsx:153
+#: src/pages/market/index.tsx:202
 msgid "Total"
 msgstr "Укупно"
 
@@ -5685,7 +5765,8 @@ msgid "Transac."
 msgstr "Трансак."
 
 #: src/components/_political/country/CountryHeader.tsx:76
-#: src/pages/market/index.tsx:83 src/pages/user/[userId]/index.tsx:221
+#: src/pages/market/index.tsx:83
+#: src/pages/user/[userId]/index.tsx:221
 msgid "Transactions"
 msgstr "Трансакције"
 
@@ -5783,6 +5864,9 @@ msgstr "Доприносиоци немира"
 msgid "Unselect all"
 msgstr "Поништи избор свега"
 
+#~ msgid "Unset order"
+#~ msgstr "Уклони наређење"
+
 #: src/components/_political/law/law.frontConfig.tsx:277
 #: src/components/_political/law/law.frontConfig.tsx:279
 msgid "Unset the sworn enemy country"
@@ -5804,6 +5888,9 @@ msgstr "Ажурирај"
 #: src/pages/user/[userId]/settings.tsx:57
 msgid "Update infos"
 msgstr "Ажурирај информације"
+
+#~ msgid "Update order"
+#~ msgstr "Ажурирај наређење"
 
 #: src/components/_user/worker/WorkerEditFormModal.tsx:207
 msgid "Update worker"
@@ -5850,7 +5937,8 @@ msgstr "Користи своју <0>глад</0> да поједеш храну
 msgid "Used"
 msgstr "Коришћено"
 
-#: src/utils/translations.tsx:78 src/utils/translations.tsx:84
+#: src/utils/translations.tsx:78
+#: src/utils/translations.tsx:84
 #: src/utils/translations.tsx:89
 msgid "Used for shooting guns. Increases your <0>Attack</0>"
 msgstr "Користи се за пуцање из оружја. Повећава твој <0>напад</0>"
@@ -6260,7 +6348,8 @@ msgstr "Већ си председник друге државе. Прво по�
 msgid "You are already vice president of another country. Resign first."
 msgstr "Већ си потпредседник друге државе. Прво поднеси оставку."
 
-#: src/pages/companies.tsx:76 src/pages/user/[userId]/companies.tsx:64
+#: src/pages/companies.tsx:76
+#: src/pages/user/[userId]/companies.tsx:64
 msgid "You are jobless"
 msgstr "Незапослен си"
 
@@ -6435,6 +6524,9 @@ msgstr "Успешно си поклонио \"{0}\" <0/>!"
 #: src/components/_user/notification/notification.frontConfig.tsx:1661
 msgid "You successfully gifted \"{skinTitle}\" to <0/>!"
 msgstr "Успешно си поклонио \"{skinTitle}\" <0/>!"
+
+#~ msgid "You successfully gifted a banner to <0/>!"
+#~ msgstr "Успешно си поклонио банер кориснику <0/>!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1138
 msgid "You successfully gifted a premium subscription to <0/>!"
@@ -6662,75 +6754,3 @@ msgstr "tvoj@email.com"
 #: src/components/_social/ArticleList.tsx:167
 msgid "Yours"
 msgstr "Твоје"
-
-#~ msgid "+{0}% from deposit"
-#~ msgstr "+{0}% од налазишта"
-
-#~ msgid "+{0}% from strategic resources"
-#~ msgstr "+{0}% од стратешких ресурса"
-
-#~ msgid "<0>{0}</0> from defense of your country's core region"
-#~ msgstr "<0>{0}</0> од одбране матичног региона твоје државе"
-
-#~ msgid "Assets"
-#~ msgstr "Средства"
-
-#~ msgid "At end of battle/rounds, <0>Top 30%</0> of the ranking, get <1>Loot chance</1> to get cases depending on total <2>Damages</2> of the side."
-#~ msgstr "На крају битке/рунди, <0>топ 30%</0> на ранг-листи добија <1>шансy за плен</1> да освоји сандуке, у зависности од укупне <2>нанете штете</2> стране."
-
-#~ msgid "Chance to dodge all incoming damage when fighting in battles.<0/> Dodging also prevents equipment durability from being consumed."
-#~ msgstr "Шанса да избегнеш сву долазну штету током борбе у биткама.<0/>Избегавање такође спречава трошење трајности опреме."
-
-#~ msgid "Changed citizenship"
-#~ msgstr "Промењено држављанство"
-
-#~ msgid "Changed description"
-#~ msgstr "Промењен опис"
-
-#~ msgid "Changed username"
-#~ msgstr "Промењено корисничко име"
-
-#~ msgid "Claim finished mission"
-#~ msgstr "Преузми завршену мисију"
-
-#~ msgid "Claim mission XP"
-#~ msgstr "Преузми XP мисије"
-
-#~ msgid "Equipment sets"
-#~ msgstr "Сетови опреме"
-
-#~ msgid "Filter by action type"
-#~ msgstr "Филтрирај по типу акције"
-
-#~ msgid "for companies producing {0} located in <0/>."
-#~ msgstr "за компаније које производе {0} лоциране у <0/>."
-
-#~ msgid "Last"
-#~ msgstr "Последњи"
-
-#~ msgid "Mercenary contracts"
-#~ msgstr "Плаћенички уговори"
-
-#~ msgid "No action logs found"
-#~ msgstr "Нису пронађени записи"
-
-#~ msgid "No bans yet"
-#~ msgstr "Нема банова..још увек"
-
-#~ msgid "Popular"
-#~ msgstr "Популарно"
-
-#~ msgid "Remove mercenary"
-#~ msgstr "Уклони плаћеника"
-
-#~ msgid "Set order"
-#~ msgstr "Постави наређење"
-
-#~ msgid "Unset order"
-#~ msgstr "Уклони наређење"
-
-#~ msgid "Update order"
-#~ msgstr "Ажурирај наређење"
-
-#~ msgid "You successfully gifted a banner to <0/>!"
-#~ msgstr "Успешно си поклонио банер кориснику <0/>!"
