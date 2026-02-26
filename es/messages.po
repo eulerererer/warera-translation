@@ -1,5 +1,5 @@
-msgid ""
-msgstr ""
+msgid 
+msgstr 
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-17 01:11+0200\n"
@@ -102,19 +102,19 @@ msgstr "{0}% de lo invertido"
 
 #: src/components/_military/battle/BattleName.tsx:141
 msgid "{battleIcon}Resistance battle for {regionName} {score}"
-msgstr ""
+msgstr "{battleIcon}Batalla de resistencia por {regionName} {score}"
 
 #: src/components/_military/battle/BattleName.tsx:146
 msgid "{battleIcon}Revolution battle {score}"
-msgstr ""
+msgstr "{battleIcon}Batalla de revolución {score}"
 
 #: src/components/_military/battle/BattleName.tsx:151
 msgid "{battleIcon}Tournament battle for {tournamentName} {score}"
-msgstr ""
+msgstr "{battleIcon}Batalla de torneo por {tournamentName} {score}"
 
 #: src/components/_military/battle/BattleName.tsx:136
 msgid "{battleIcon}War battle for {regionName} {score}"
-msgstr ""
+msgstr "{battleIcon}Batalla de guerra por {regionName} {score}"
 
 #: src/components/_user/mission/MissionsList.tsx:171
 msgid "{completedCount}/{totalCount} completed"
@@ -167,7 +167,7 @@ msgstr "<0/> conquistó la región en <1/>"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:74
 msgid "<0/> created the conversation"
-msgstr ""
+msgstr "<0/> creó la conversación"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:817
 msgid "<0/> defended in <1/>"
@@ -186,7 +186,7 @@ msgstr "<0/> te despidió de tu trabajo asalariado de <1>{0}</1> en <2/>"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:45
 msgid "<0/> gifted a sub to <1/>"
-msgstr ""
+msgstr "<0/> le regaló una suscripción a <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1155
 msgid "<0/> gifted you a premium subscription!"
@@ -236,7 +236,7 @@ msgstr "<0/> se está rebelando en <1/> contra tu país"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:16
 msgid "<0/> joined the conversation"
-msgstr ""
+msgstr "<0/> se ha unido a la conversación"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:686
 msgid "<0/> joined the game with your referral link!"
@@ -249,7 +249,7 @@ msgstr "<0/> se unió a tu empresa <1/> por un salario de <2>{0}</2>"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:34
 msgid "<0/> kicked <1/> from the conversation"
-msgstr ""
+msgstr "<0/> expulsado <1/> de la conversación"
 
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
 #: src/components/_user/notification/notification.frontConfig.tsx:531
@@ -258,7 +258,7 @@ msgstr "<0/> dejó su trabajo en tu empresa {0}"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:25
 msgid "<0/> left the conversation"
-msgstr ""
+msgstr "<0/> salió de la conversación"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:901
 msgid "<0/> liked your article <1/>"
@@ -313,13 +313,13 @@ msgstr "<0/> fue nombrado como <1>{0}</1>"
 #. placeholder {0}: data.roundNumber
 #: src/components/_political/message/systemMessage.frontConfig.tsx:55
 msgid "<0/> won round {0}"
-msgstr ""
+msgstr "<0/> ganó la ronda {0}"
 
 #. placeholder {0}: data.attackerWonRoundsCount
 #. placeholder {1}: data.defenderWonRoundsCount
 #: src/components/_political/message/systemMessage.frontConfig.tsx:64
 msgid "<0/> won the battle ({0}-{1})"
-msgstr ""
+msgstr "<0/> ganó la batalla ({0}-{1})"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:349
 msgid "<0/> won the primary election in <1/> and can now run for president!"
@@ -947,7 +947,7 @@ msgstr "Aceptada"
 
 #: src/components/_military/battle/BattleHeader.tsx:161
 msgid "Access war"
-msgstr ""
+msgstr "Acceder a la guerra"
 
 #: src/components/_political/country/CountryHeader.tsx:70
 #: src/components/_user/user/UserHeader.tsx:164
@@ -1489,7 +1489,7 @@ msgstr "Crear la unidad militar"
 
 #: src/pages/user/[userId]/bans.tsx:180
 msgid "Buy"
-msgstr ""
+msgstr "Comprar"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:166
 msgid "Buy for <0>{count}</0> money on market"
@@ -2848,7 +2848,7 @@ msgstr "regaló a"
 
 #: src/components/_user/user/UserDropdown.tsx:333
 msgid "Give badge"
-msgstr ""
+msgstr "Dar insignia"
 
 #: src/components/_user/user/UserDropdown.tsx:312
 msgid "Give money"
@@ -3425,7 +3425,7 @@ msgstr "Dinero obtenido"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:20
 msgid "Love Paper Jet"
-msgstr ""
+msgstr "Jet de papel amoroso"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:101
 msgid "Lt. Colonel"
@@ -3492,7 +3492,7 @@ msgstr "Quizás la próxima vez ^^"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:13
 msgid "Medieval"
-msgstr ""
+msgstr "Medieval"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:65
 msgid "Medieval Boots"
@@ -4196,7 +4196,7 @@ msgstr "Pacifista"
 
 #: src/components/_other/shop/ShopHeader.tsx:29
 msgid "Packs"
-msgstr ""
+msgstr "Paquetes"
 
 #: src/components/_user/UserEquipments.tsx:163
 #: src/utils/translations.tsx:198
@@ -4662,7 +4662,7 @@ msgstr "Receta"
 
 #: src/components/_other/shop/SkinPackModal.tsx:232
 msgid "Recipient"
-msgstr ""
+msgstr "Destinatario"
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:84
 msgid "Recommended regions"
@@ -5048,11 +5048,11 @@ msgstr "Buscar países..."
 
 #: src/components/_other/shop/SkinPackModal.tsx:234
 msgid "Search recipient username..."
-msgstr ""
+msgstr "Buscar usuario destinatario..."
 
 #: src/components/_political/government/NominateForm.tsx:49
 msgid "Search username to nominate..."
-msgstr ""
+msgstr "Buscar usuario a nominar..."
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:44
 msgid "See all your workers and companies stats"
@@ -5109,7 +5109,7 @@ msgstr "Trabaja para ti <0>{count}</0> veces en tus empresas"
 
 #: src/pages/user/[userId]/bans.tsx:205
 msgid "Sell"
-msgstr ""
+msgstr "Vender"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:253
 msgid "Sell company?"
@@ -5264,7 +5264,7 @@ msgstr "Mostrar más"
 
 #: src/components/_social/ArticleList.tsx:140
 msgid "Show only articles with positive score (score >= -5)"
-msgstr ""
+msgstr "Mostrar solo artículos con puntuación positiva (score >= -5)"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:19
 msgid "Skill issue?"
@@ -5302,12 +5302,12 @@ msgstr "¡Skin pack desbloqueado! ¡Todas las skins equipadas!"
 
 #: src/components/_other/shop/SkinCollectionModal.tsx:91
 msgid "Skin Packs"
-msgstr ""
+msgstr "Paquetes de skins"
 
 #: src/components/_other/shop/ShopHeader.tsx:22
 #: src/pages/user/[userId]/index.tsx:91
 msgid "Skins"
-msgstr ""
+msgstr "Skins"
 
 #: src/components/_other/shop/SkinPackModal.tsx:250
 msgid "Skins in this pack"
@@ -5688,7 +5688,7 @@ msgstr "Top"
 
 #: src/components/_social/ArticleList.tsx:168
 msgid "Top (1d)"
-msgstr ""
+msgstr "Top (1d)"
 
 #: src/components/_social/ArticleList.tsx:175
 msgid "Top (1w)"
@@ -6053,7 +6053,7 @@ msgstr "Usuarios"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:9
 msgid "UwU"
-msgstr ""
+msgstr "UwU"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:8
 msgid "Valentine Ammo"
@@ -6153,7 +6153,7 @@ msgstr "Vicepresidente"
 
 #: src/components/_military/battle/BattleHeader.tsx:168
 msgid "View on map"
-msgstr ""
+msgstr "Ver en el mapa"
 
 #: src/components/_military/war/WarComparison.tsx:45
 msgid "VS"
